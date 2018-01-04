@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		4414815D1FF61CAB00E09E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414815C1FF61CAB00E09E89 /* AppDelegate.swift */; };
-		4414815F1FF61CAB00E09E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414815E1FF61CAB00E09E89 /* ViewController.swift */; };
 		441481621FF61CAB00E09E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441481601FF61CAB00E09E89 /* Main.storyboard */; };
 		441481641FF61CAB00E09E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441481631FF61CAB00E09E89 /* Assets.xcassets */; };
 		441481671FF61CAB00E09E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441481651FF61CAB00E09E89 /* LaunchScreen.storyboard */; };
+		90F0793E1FF79F32000CDCC3 /* MainMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0793D1FF79F32000CDCC3 /* MainMapVC.swift */; };
+		90F079401FF79F40000CDCC3 /* SearchNearbyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0793F1FF79F40000CDCC3 /* SearchNearbyManager.swift */; };
+		EFFFDD5E3994F5A890F8C990 /* Pods_ATM_TVCExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB7D59D05F67578D2D5FCA2 /* Pods_ATM_TVCExperiment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A915BEC48DAB7BDC4300A66 /* Pods-ATM-TVCExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATM-TVCExperiment.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATM-TVCExperiment/Pods-ATM-TVCExperiment.release.xcconfig"; sourceTree = "<group>"; };
 		441481591FF61CAA00E09E89 /* ATM-TVCExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATM-TVCExperiment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4414815C1FF61CAB00E09E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4414815E1FF61CAB00E09E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		441481611FF61CAB00E09E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		441481631FF61CAB00E09E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		441481661FF61CAB00E09E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		441481681FF61CAB00E09E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5698315BBD73D6D491382832 /* Pods-ATM-TVCExperiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATM-TVCExperiment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATM-TVCExperiment/Pods-ATM-TVCExperiment.debug.xcconfig"; sourceTree = "<group>"; };
+		90F0793D1FF79F32000CDCC3 /* MainMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMapVC.swift; sourceTree = "<group>"; };
+		90F0793F1FF79F40000CDCC3 /* SearchNearbyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchNearbyManager.swift; sourceTree = "<group>"; };
+		DEB7D59D05F67578D2D5FCA2 /* Pods_ATM_TVCExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATM_TVCExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFFFDD5E3994F5A890F8C990 /* Pods_ATM_TVCExperiment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				4414815B1FF61CAA00E09E89 /* ATM-TVCExperiment */,
 				4414815A1FF61CAA00E09E89 /* Products */,
+				753D28E6F9709289587FFCF1 /* Pods */,
+				A3DEE5EF995C6AD6886AFB28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +64,31 @@
 			isa = PBXGroup;
 			children = (
 				4414815C1FF61CAB00E09E89 /* AppDelegate.swift */,
-				4414815E1FF61CAB00E09E89 /* ViewController.swift */,
+				90F0793D1FF79F32000CDCC3 /* MainMapVC.swift */,
+				90F0793F1FF79F40000CDCC3 /* SearchNearbyManager.swift */,
 				441481601FF61CAB00E09E89 /* Main.storyboard */,
 				441481631FF61CAB00E09E89 /* Assets.xcassets */,
 				441481651FF61CAB00E09E89 /* LaunchScreen.storyboard */,
 				441481681FF61CAB00E09E89 /* Info.plist */,
 			);
 			path = "ATM-TVCExperiment";
+			sourceTree = "<group>";
+		};
+		753D28E6F9709289587FFCF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5698315BBD73D6D491382832 /* Pods-ATM-TVCExperiment.debug.xcconfig */,
+				3A915BEC48DAB7BDC4300A66 /* Pods-ATM-TVCExperiment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3DEE5EF995C6AD6886AFB28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEB7D59D05F67578D2D5FCA2 /* Pods_ATM_TVCExperiment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4414816B1FF61CAB00E09E89 /* Build configuration list for PBXNativeTarget "ATM-TVCExperiment" */;
 			buildPhases = (
+				853EDE4E0EE0DAA873168735 /* [CP] Check Pods Manifest.lock */,
 				441481551FF61CAA00E09E89 /* Sources */,
 				441481561FF61CAA00E09E89 /* Frameworks */,
 				441481571FF61CAA00E09E89 /* Resources */,
+				CFFACE4144D92C756A0CDE2D /* [CP] Embed Pods Frameworks */,
+				F9421BF9FCD27E55C30D1FAE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +162,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		853EDE4E0EE0DAA873168735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFFACE4144D92C756A0CDE2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATM-TVCExperiment/Pods-ATM-TVCExperiment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9421BF9FCD27E55C30D1FAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATM-TVCExperiment/Pods-ATM-TVCExperiment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		441481551FF61CAA00E09E89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4414815F1FF61CAB00E09E89 /* ViewController.swift in Sources */,
+				90F0793E1FF79F32000CDCC3 /* MainMapVC.swift in Sources */,
+				90F079401FF79F40000CDCC3 /* SearchNearbyManager.swift in Sources */,
 				4414815D1FF61CAB00E09E89 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +338,7 @@
 		};
 		4414816C1FF61CAB00E09E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5698315BBD73D6D491382832 /* Pods-ATM-TVCExperiment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7KF4FF2YG8;
@@ -272,6 +352,7 @@
 		};
 		4414816D1FF61CAB00E09E89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A915BEC48DAB7BDC4300A66 /* Pods-ATM-TVCExperiment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7KF4FF2YG8;
@@ -302,6 +383,7 @@
 				4414816D1FF61CAB00E09E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
