@@ -53,7 +53,7 @@ class SearchNearbyManager: NSObject {
     // Google Web API received here
     public func getNearbyLocationsWithLocation(location: CLLocation) {
         //modification "insterted"
-        let urlString : String = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyAKF_fZmL8QQFIjpuELxAsuqbJd7ChME48&location="
+        let urlString : String = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?key="****** PUT YOUR GOOGLE API KEY HERE ********"&location="
         let latitude:String = "\(location.coordinate.latitude)"
         let longitude:String = "\(location.coordinate.longitude)"
         let radius = String(regionRadius)
